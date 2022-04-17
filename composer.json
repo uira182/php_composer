@@ -1,0 +1,16 @@
+{
+    "name": "php/autoload-com-composer",
+    "type": "projetc",
+    "license": "MIT",
+    "authors": [{
+        "name": "Uira de Souza",
+        "email": "uira182@hotmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Control\\": "./src/Control",
+            "Model\\": "./src/Model"
+        }
+    }
+}
